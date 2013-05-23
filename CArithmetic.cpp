@@ -10,7 +10,12 @@
 std::string CArithmetic::arithmetic(int a, int b, int c) {
     std::string result = "ERROR";
     
-    
+    if (c == a * b) {
+        result = "YES";
+    }
+    else {
+        result = "NO";
+    }
     
     return result;
 }
